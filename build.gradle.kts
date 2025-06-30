@@ -14,7 +14,9 @@ repositories {
 dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0")
 
-    implementation("io.ktor:ktor-server-core")
-    implementation("io.ktor:ktor-server-netty")
-    implementation("io.ktor:ktor-server-cors")
+    implementation("io.ktor:ktor-server-core:3.2.0")
+    implementation("io.ktor:ktor-server-netty:3.2.0")
+    implementation("io.ktor:ktor-server-cors:3.2.0")
+    implementation("io.ktor:ktor-server-content-negotiation:3.2.0")
+    implementation("io.ktor:ktor-serialization-kotlinx-json:3.2.0")
 }
